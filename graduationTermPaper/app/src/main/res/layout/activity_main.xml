@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tabMode="scrollable">
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="超值套餐 Meal Deal" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="雙拼套餐 Meal Deal" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="沙拉套餐 Meal Deal" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="輕食套餐 Meal Deal" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="飲料小食 Drinks And Sides" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="產品標示 (請勿下訂)" />
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="555dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tabLayout_id"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/image_Banner"
+                android:layout_width="400dp"
+                android:layout_height="195dp"
+                android:layout_marginEnd="409dp"
+                android:layout_marginRight="409dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/banner" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/banner_text" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView_id"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="1dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="408dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button_showCart"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="顯示購物車"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:visibility="gone"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

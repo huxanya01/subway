@@ -1,0 +1,351 @@
+<resources>
+    <string name="app_name">graduationTermPaper</string>
+
+    <string-array name="bigTitle">
+        <item>超值套餐 Meal Deal</item>
+        <item>雙拼套餐 Meal Deal</item>
+        <item>沙拉套餐 Meal Deal</item>
+        <item>輕食套餐 Meal Deal</item>
+        <item>飲料小食 Drinks And Sides</item>
+        <item>產品標示 (請勿下訂)</item>
+    </string-array>
+    <integer-array name="bigTitlePosition">
+        <item>0</item>
+        <item>13</item>
+        <item>17</item>
+        <item>21</item>
+        <item>23</item>
+        <item>31</item>
+    </integer-array>
+
+    <string-array name="food">
+        <item>6 吋素食蔬菜潛艇堡 6-Inch Veggie Delight™ Sub</item>
+        <item>6 吋火腿潛艇堡 6-Inch Ham Sub</item>
+        <item>6 吋鮮嫩雞柳潛艇堡 6-Inch Chicken Strips Sub</item>
+        <item>6 吋鮪魚潛艇堡 6-Inch Tuna Sub</item>
+        <item>6 吋鷹嘴豆泥餅潛艇堡 6-Inch Falafel Sub</item>
+        <item>6 吋墨西哥辣牛潛艇堡 6-Inch Taco Beef Sub</item>
+        <item>6 吋火雞胸肉潛艇堡 6-Inch Turkey Breast Sub</item>
+        <item>6 吋百味俱樂部潛艇堡 6-Inch Subway Club™ Sub</item>
+        <item>6 吋香烤雞肉潛艇堡 6-Inch Roasted Chicken Breast Sub</item>
+        <item>6 吋鮮嫩雞柳潛艇堡 6-Inch Chicken Strips Sub</item>
+        <item>6 吋燒烤牛肉潛艇堡 6-Inch Roast Beef Sub</item>
+        <item>6 吋照燒雞肉潛艇堡 6-Inch Chicken Teriyaki Sub</item>
+        <item>6 吋義大利經典潛艇堡 6-Inch Italian B.M.T.™ Sub</item>
+
+        <item>6 吋海鮮總匯潛艇堡 6-Inch Tuna Sub</item>
+        <item>6 吋嫩雞雙饗潛艇堡 6-Inch Chicken Strips Sub</item>
+        <item>6 吋豪華百味潛艇堡 6-Inch Subway Club™ Sub</item>
+        <item>6 吋重磅培根牛肉丸潛艇堡 6-Inch Italian Meatballs Sub</item>
+
+        <item>鮪魚沙拉組合 Tuna Salad</item>
+        <item>素食蔬菜沙拉組合 Veggie Delight Salad</item>
+        <item>鮮嫩雞柳沙拉組合 Chicken Strips Salad</item>
+        <item>墨西哥辣牛沙拉組合 Taco Beef Salad</item>
+
+        <item>美式 B.L.T.捲餅 B.L.T. Wrap</item>
+        <item>鷹嘴豆泥捲餅 Falafel Wrap</item>
+
+        <item>飛想茶 (大杯) Fuze Tea (22oz)</item>
+        <item>雪碧 (大杯) Sprite (22oz)</item>
+        <item>冰美式咖啡 Cold American Coffee (12oz)</item>
+        <item>熱美式咖啡 Hot American Coffee (12oz)</item>
+        <item>冰拿鐵 Cold Caffe Latte (12oz)</item>
+        <item>熱拿鐵 Hot Caffe Latte (12oz)</item>
+        <item>現烤餅乾一片 Cookie 1 pc</item>
+        <item>薯片 Chips</item>
+
+        <item>火雞胸肉產品資訊</item>
+        <item>香烤雞肉產品資訊</item>
+        <item>嫩切雞肉產品資訊</item>
+        <item>厚切嫩牛產品資訊</item>
+        <item>燒烤牛肉產品資訊</item>
+        <item>義大利牛肉丸產品資訊</item>
+        <item>墨西哥辣牛產品資訊</item>
+        <item>火腿產品資訊</item>
+        <item>義大利經典產品資訊</item>
+        <item>百味俱樂部產品資訊</item>
+        <item>哈燒起司總匯產品資訊</item>
+        <item>火雞火腿產品資訊</item>
+        <item>活力鮮蝦產品資訊</item>
+        <item>鮪魚產品資訊</item>
+
+    </string-array>
+
+    <string-array name="detailed_description">
+        <item>內含生菜, 番茄, 青椒, 洋蔥, 橄欖及大黃瓜。套餐含 6 吋潛艇堡 1 份, 附餐選擇與飲料選擇。Includes a side and a drink.</item>
+        <item>內含特選火腿。套餐含 6 吋潛艇堡 1 份, 附餐選擇與飲料選擇。Includes a side and a drink.</item>
+        <item>內含鮮嫩雞肉切片。套餐含 6 吋潛艇堡 1 份, 附餐選擇與飲料選擇。Includes a side and a drink.</item>
+        <item>內含鮪魚。套餐含 6 吋潛艇堡 1 份, 附餐選擇與飲料選擇。Includes a side and a drink.</item>
+        <item>內含鷹嘴豆泥, 辣椒, 洋蔥, 紅甜椒, 巴西里香芹, 大蒜及薑黃等辛香料。套餐含 6 吋潛艇堡 1 份, 附餐選擇與飲料選擇。Includes a side and a drink.</item>
+        <item>內含墨西哥辣牛肉。套餐含 6 吋潛艇堡 1 份, 附餐選擇與飲料選擇。Includes a side and a drink.</item>
+        <item>內含鮮嫩火雞胸肉。套餐含 6 吋潛艇堡 1 份, 附餐選擇與飲料選擇。Includes a side and a drink.</item>
+        <item>內含鮮嫩火雞胸肉, 香烤牛肉及特選火腿。套餐含 6 吋潛艇堡 1 份, 附餐選擇與飲料選擇。Includes a side and a drink.</item>
+        <item>內含香烤雞胸排。套餐含 6 吋潛艇堡 1 份, 附餐選擇與飲料選擇。Includes a side and a drink.</item>
+        <item>內含鮮嫩雞柳條。套餐含 6 吋潛艇堡 1 份, 附餐選擇與飲料選擇。Includes a side and a drink.</item>
+        <item>內含香烤牛肉。套餐含 6 吋潛艇堡 1 份, 附餐選擇與飲料選擇。Includes a side and a drink.</item>
+        <item>內含鮮嫩雞柳條與鮮甜照燒醬。套餐含 6 吋潛艇堡 1 份、附餐選擇與飲料選擇。Includes a side and a drink.</item>
+        <item>內含義式煙燻臘腸，義大利辣香腸及特選火腿。套餐含6 吋潛艇堡 1 份、附餐選擇與飲料選擇。Includes a side and a drink.</item>
+
+        <item>內含鮪魚及鮮蝦。套餐含 6 吋潛艇堡 1 份, 附餐選擇與飲料選擇。Includes a side and a drink.</item>
+        <item>內含鮮嫩雞柳條及鮮嫩雞肉切片。套餐含 6 吋潛艇堡 1 份、附餐選擇與飲料選擇。Includes a side and a drink.</item>
+        <item>內含鮮嫩火雞胸肉, 香烤牛肉, 特選火腿及蛋沙拉 2 球 。套餐含 6 吋潛艇堡 1 份, 附餐選擇與飲料選擇。Includes a side and a drink.</item>
+        <item>內含牛肉丸, 培根 2 條與獨家秘方義大利番茄醬 。套餐含 6 吋潛艇堡 1 份, 附餐選擇與飲料選擇。Includes a side and a drink.</item>
+
+        <item>內含鮪魚。套餐含沙拉 1 份, 附餐選擇與飲料選擇。</item>
+        <item>內含生菜, 番茄, 青椒, 洋蔥, 橄欖及大黃瓜。套餐含沙拉 1 份, 附餐選擇與飲料選擇。</item>
+        <item>內含鮮嫩雞柳條。套餐含沙拉 1 份, 附餐選擇與飲料選擇。</item>
+        <item>內含墨西哥辣牛肉。套餐含沙拉 1 份、附餐選擇與飲料選擇。</item>
+
+        <item>內含菠菜捲餅, 培根, 番茄, 生菜及起司。套餐含捲餅 1份, 附餐選擇與飲料選擇。</item>
+        <item>內含蔬菜球, 蛋沙拉, 生菜及起司。套餐含捲餅 1 份, 附餐選擇與飲料選擇。</item>
+
+        <item>22oz/660ml 紙杯裝, 如售完以同價格品項替換。</item>
+        <item>22oz/660ml 紙杯裝, 如售完以同價格品項替換。</item>
+        <item>12 oz/360 ml 紙杯裝, 總糖量最高值：0 克／總熱量最高值：12 大卡／咖啡因含量最高值：255 毫克/每杯／咖啡豆產地：巴西, 哥倫比亞, 越南, 如售完以同價格品項替換。</item>
+        <item>12 oz/360 ml 紙杯裝, 總糖量最高值：0 克／總熱量最高值：12 大卡／咖啡因含量最高值：255 毫克/每杯／咖啡豆產地：巴西, 哥倫比亞, 越南, 如售完以同價格品項替換。</item>
+        <item>12 oz/360 ml 紙杯裝，總糖量最高值：0 克／總熱量最高值：5大卡／咖啡因含量最高值：56 毫克/每杯／產地：馬來西亞, 如售完以同價格品項替換。</item>
+        <item>12 oz/360 ml 紙杯裝，總糖量最高值：0 克／總熱量最高值：5大卡／咖啡因含量最高值：56 毫克/每杯／產地：馬來西亞, 如售完以同價格品項替換。</item>
+        <item>口味隨機, 以現場供應為主。含花生及堅果。</item>
+        <item>包含樂事洋芋片, 多力多滋, 奇多玉米棒等, 口味隨機, 以現場供應為主。</item>
+
+        <item>餐點內火雞胸肉為組合肉, 以禽肉為原料, 經組合或壓型等加工過程製造之產品, 並以熟食供應, 請安心食用。</item>
+        <item>餐點內火雞胸肉為組合肉, 以禽肉為原料, 經組合或壓型等加工過程製造之產品, 並以熟食供應, 請安心食用。</item>
+        <item>餐點內火雞胸肉為組合肉, 以禽肉為原料, 經組合或壓型等加工過程製造之產品, 並以熟食供應, 請安心食用。</item>
+        <item>牛肉原產地：紐西蘭。</item>
+        <item>牛肉原產地：澳洲, 紐西蘭及其他(美國、巴拉圭)。</item>
+        <item>牛肉原產地：紐西蘭。</item>
+        <item>牛肉原產地：澳洲, 紐西蘭及其他(美國、巴拉圭)。</item>
+        <item>火腿原產地：台灣。</item>
+        <item>牛豬肉原產地：澳洲／火腿原產地：台灣。</item>
+        <item>牛肉原產地：澳洲、紐西蘭、其他(美國、巴拉圭)／火腿原產地：台灣。 / 餐點內火雞胸肉為組合肉, 以禽肉為原料, 經組合或壓型等加工過程製造之產品, 並以熟食供應, 請安心食用。</item>
+        <item>培根原產地：美國／火腿原產地：台灣。／餐點內火雞胸肉為組合肉, 以禽肉為原料, 經組合或壓型等加工過程製造之產品, 並以熟食供應, 請安心食用。</item>
+        <item>火腿原產地：台灣。／餐點內火雞胸肉為組合肉, 以禽肉為原料, 經組合或壓型等加工過程製造之產品, 並以熟食供應, 請安心食用。</item>
+        <item>本餐點內含甲殼類及其製品, 不適合對其過敏體質者食用。</item>
+        <item>本餐點內含魚類及其製品, 不適合對其過敏體質者食用。</item>
+
+    </string-array>
+
+    <string-array name="price">
+        <item>140</item>
+        <item>154</item>
+        <item>154</item>
+        <item>160</item>
+        <item>160</item>
+        <item>160</item>
+        <item>160</item>
+        <item>170</item>
+        <item>166</item>
+        <item>163</item>
+        <item>173</item>
+        <item>160</item>
+        <item>185</item>
+
+        <item>215</item>
+        <item>208</item>
+        <item>215</item>
+        <item>193</item>
+
+        <item>200</item>
+        <item>180</item>
+        <item>203</item>
+        <item>200</item>
+
+        <item>144</item>
+        <item>144</item>
+
+        <item>35</item>
+        <item>35</item>
+        <item>35</item>
+        <item>35</item>
+        <item>45</item>
+        <item>45</item>
+        <item>20</item>
+        <item>20</item>
+
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+
+
+    </string-array>
+
+    <integer-array name="picture">
+        <item>@drawable/inchveggiedelight01</item>
+        <item>@drawable/inchhamsub02</item>
+        <item>@drawable/inchslicedchickensub03</item>
+        <item>@drawable/inchtunasub04</item>
+        <item>@drawable/inchfalafelsub05</item>
+        <item>@drawable/inchtacobeefsub06</item>
+        <item>@drawable/inchturkeybreastsub07</item>
+        <item>@drawable/inchsubwayclubsub08</item>
+        <item>@drawable/inchroastedchickenbreastsub09</item>
+        <item>@drawable/inchchickenstripssub10</item>
+        <item>@drawable/inchroastbeefsub11</item>
+        <item>@drawable/inchchickenteriyakisub12</item>
+        <item>@drawable/inchitalianbmtsub13</item>
+
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+
+        <item>0</item>
+        <item>0</item>
+
+        <item>@drawable/fuze_tea_22oz</item>
+        <item>@drawable/sprite_22oz</item>
+        <item>@drawable/cold_american_coffee_12oz</item>
+        <item>@drawable/hot_american_coffee_12oz</item>
+        <item>@drawable/cold_caffe_latte_12oz</item>
+        <item>@drawable/hot_caffe_latte_12oz</item>
+        <item>@drawable/cookie_1pc</item>
+        <item>@drawable/chips</item>
+
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+
+    </integer-array>
+
+    <string-array name="toast">
+        <item>加熱Yes</item>
+        <item>不加熱No</item>
+    </string-array>
+
+    <string-array name="bread">
+        <item>白麵包(如售完以巴拿乾酪代替)Italian White</item>
+        <item>小麥麵包(如售完以蜂蜜燕麥代替)Wheat</item>
+        <item>巴拿乾酪麵包(如售完以白麵包代替)Parmesan</item>
+        <item>蜂蜜燕麥麵包(如售完以小麥代替)Honey Oat</item>
+    </string-array>
+
+    <string-array name="cheese">
+        <item>不加起司Without Cheese</item>
+        <item>三角切片起司Sliced Cheese</item>
+    </string-array>
+
+    <string-array name="add">
+        <item>雙份起司Extra Cheese +NT20.00</item>
+        <item>蛋沙拉1球Egg Mayo 1 Scoop +NT25.00</item>
+        <item>火腿2片Ham(2pcs) +NT25.00</item>
+        <item>培根2條Bacon(2pcs)[培根原產地:美國] +NT30.00</item>
+        <item>酪梨泥1球Avocado 1 Scoop +NT35.00</item>
+    </string-array>
+
+    <string-array name="veggie">
+        <item>全不加蔬菜Without Veggie</item>
+        <item>加蔬菜With Veggie(請選擇您要的蔬菜)</item>
+    </string-array>
+
+    <string-array name="pickle">
+        <item>全不加醃製物Without Pickles</item>
+        <item>加醃製物With Pickles(請選擇您要的醃製物)</item>
+    </string-array>
+
+    <string-array name="sauce">
+        <item>全不加醬汁Without Sauce</item>
+        <item>加醬汁With Sauce(請選擇您要的醬汁)</item>
+    </string-array>
+
+    <string-array name="side">
+        <item>現烤餅乾(1片,口味隨機)Cookie(1pc,Random Flavor)</item>
+        <item>鷹嘴豆泥餅2個Falafel(2pcs) +NT15.00</item>
+        <item>香烤雞胸排Roasted Chicken Breast +NT25.00</item>
+        <item>迷你沙拉佐義大利油醋醬Mini Salad With Italian Dressing +NT25.00</item>
+        <item>迷你沙拉佐紅醋醬Mini Salad With Red Wine Vinegar +NT25.00</item>
+        <item>迷你沙拉佐千島醬Mini Salad With Thousand Island +NT25.00</item>
+    </string-array>
+
+    <string-array name="drink">
+        <item>冰美式咖啡Cold American Coffee(12oz)</item>
+        <item>熱美式咖啡Hot American Coffee(12oz)</item>
+        <item>雪碧(大杯)Sprite(22oz)</item>
+        <item>飛想茶(大杯)Fuze Tea(22oz)</item>
+        <item>可口可樂330ml(鋁罐)Coca Cola Can +NT5.00</item>
+    </string-array>
+
+    <string-array name="meal">
+        <item>是否加熱麵包Toasted or Not</item>
+        <item>選擇麵包Select Your Bread</item>
+        <item>選擇起司Select Your Cheese</item>
+        <item>加料區Add-On</item>
+        <item>選擇蔬菜Select Your Veggie</item>
+        <item>選擇醃製物Select Your Pickles</item>
+        <item>選擇醬汁Sauce and Dressing</item>
+        <item>附餐Side Order(如售完以其他同價位品項替代)</item>
+        <item>飲料Drink(如售完以其他同價位品項替代)</item>
+    </string-array>
+
+    <string-array name="salad">
+        <item>選擇起司Select Your Cheese</item>
+        <item>加料區Add-On</item>
+        <item>選擇蔬菜Select Your Veggie</item>
+        <item>選擇醃製物Select Your Pickles</item>
+        <item>選擇醬汁Sauce and Dressing</item>
+        <item>附餐Side Order(如售完以其他同價位品項替代)</item>
+        <item>飲料Drink(如售完以其他同價位品項替代)</item>
+    </string-array>
+
+    <string-array name="light">
+        <item>附餐Side Order(如售完以其他同價位品項替代)</item>
+        <item>飲料Drink(如售完以其他同價位品項替代)</item>
+    </string-array>
+
+    <string-array name="secondTitle">
+        <item>加蔬菜With Veggie(請選擇您要的蔬菜)</item>
+        <item>加醃製物With Pickles(請選擇您要的醃製物)</item>
+        <item>加醬汁With Sauce(請選擇您要的醬汁)</item>
+    </string-array>
+
+    <string-array name="secondVeggie">
+        <item>生菜Lettuce</item>
+        <item>番茄Tomato</item>
+        <item>大黃瓜Cucumber</item>
+        <item>青椒Green pepper</item>
+        <item>洋蔥Onion</item>
+    </string-array>
+
+    <string-array name="secondPickle">
+        <item>黑橄欖Black Olives</item>
+    </string-array>
+
+    <string-array name="secondSauce">
+        <item>義大利油醋醬Italian Dressing</item>
+        <item>千島醬Thousand Island</item>
+        <item>甜蔥醬Sweet Onion</item>
+        <item>蜂蜜芥末醬Honey Mustard</item>
+        <item>橄欖油Olive Oil Blend</item>
+        <item>美乃滋Mayonnaise</item>
+        <item>黃芥末Yellow Mustard</item>
+        <item>紅酒醋Red Wine Vinegar</item>
+    </string-array>
+
+</resources>

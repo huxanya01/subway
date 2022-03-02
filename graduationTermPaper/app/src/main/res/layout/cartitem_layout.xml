@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:orientation="horizontal">
+
+        <NumberPicker
+            android:id="@+id/numberPicker_cart"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView_cartTitle"
+            android:layout_width="225dp"
+            android:layout_height="match_parent"
+            android:text="Food名"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView_cartPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$NT價錢"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_toastTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Toast標題"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView_toastDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Toast內容"
+            android:textColor="@color/material_on_surface_disabled"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView_breadTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="bread標題"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView_breadDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="bread內容"
+            android:textColor="@color/material_on_surface_disabled"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView_cheeseTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="cheese標題"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView_cheeseDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="cheese內容"
+            android:textColor="@color/material_on_surface_disabled"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView_addTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="add標題"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView_addDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="add內容"
+            android:textColor="@color/material_on_surface_disabled"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView_veggieTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="veggie標題"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView_veggieDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="veggie內容"
+            android:textColor="@color/material_on_surface_disabled"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView_pickleTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="pickle標題"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView_pickleDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="pickle內容"
+            android:textColor="@color/material_on_surface_disabled"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView_sauceTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sauce標題"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView_sauceDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sauce內容"
+            android:textColor="@color/material_on_surface_disabled"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView_sideTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="side標題"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView_sideDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="side內容"
+            android:textColor="@color/material_on_surface_disabled"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView_drinkTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="drink標題"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView_drinkDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="drink內容"
+            android:textColor="@color/material_on_surface_disabled"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
