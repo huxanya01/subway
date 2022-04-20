@@ -42,9 +42,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        setTitle("Subway");
-
         context = this;
+
+        TelNum telNum = new TelNum(context);
+        setTitle("Subway(電話號碼:"+telNum.getTelNum());
 
         globalCount = new GlobalCount(context);
         globalCount.createOrRestoreCount();

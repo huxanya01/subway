@@ -56,7 +56,8 @@ public class foodSelection extends AppCompatActivity {
         ActionBar actionBar = getSupportActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
 
-        setTitle("Subway");
+        TelNum telNum = new TelNum(context);
+        setTitle("Subway(電話號碼:"+telNum.getTelNum());
         Intent intent = getIntent();
 
         GlobalCount globalCount = new GlobalCount(context);

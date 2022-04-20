@@ -69,6 +69,7 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.ViewHolder> {
                                 prefData = new PrefData(context,position);
                                 prefData.clear();
                                 prefData.setShowFlag(false);
+                                setButtonCheckOut();
                                 holder.itemView.setVisibility(View.GONE);
                                 holder.itemView.getLayoutParams().height = 0; //可以即時移除此項item
                                 dialog.dismiss();
